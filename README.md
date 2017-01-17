@@ -5,15 +5,23 @@
 
 First, install [Yeoman](http://yeoman.io) and generator-angular-custom using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
+Prerequisites:
+
 ```bash
 npm install -g yo
 npm install -g generator-angular-custom
 ```
 
+To link our generator to yeoman:
+
+```bash
+npm link
+```
+
 Then generate your new project:
 
 ```bash
-yo angular-custom
+yo angular-custom --force
 ```
 
 ## Getting To Know Yeoman
